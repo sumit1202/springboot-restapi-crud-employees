@@ -4,6 +4,7 @@ import java.util.List;
 import com.example.springboot.crudrestapi.entity.Employee;
 
 public interface EmployeeService {
+
     List<Employee> findAllService();
 
     Employee findEmployeeByIdService(int id);
@@ -11,4 +12,5 @@ public interface EmployeeService {
     Employee saveEmployeeService(Employee employee);
 
     void deleteEmployeeByIdService(int id);
+
 }
